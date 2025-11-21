@@ -1,0 +1,134 @@
+2025/11/21 23:39:53 logtail started
+2025/11/21 23:39:53 Program starting: v1.80.2-t62b8bf6a0-g3c35ee987, Go 1.23.5: []string{"./tailscaled"}
+2025/11/21 23:39:53 LogID: 993cf04ed98ff26738f4b9fa27e1d363e7adcb2f3ceb283c78c522960f4b5439
+2025/11/21 23:39:53 logpolicy: using system state directory "/var/lib/tailscale"
+logpolicy.ConfigFromFile /var/lib/tailscale/tailscaled.log.conf: open /var/lib/tailscale/tailscaled.log.conf: no such file or directory
+logpolicy.Config.Validate for /var/lib/tailscale/tailscaled.log.conf: config is nil
+2025/11/21 23:39:53 dns: resolvedIsActuallyResolver error: resolv.conf doesn't point to systemd-resolved; points to [127.0.0.53 168.63.129.16]
+2025/11/21 23:39:53 dns: [rc=resolved resolved=not-in-use ret=direct]
+2025/11/21 23:39:53 dns: using "direct" mode
+2025/11/21 23:39:53 dns: using *dns.directManager
+2025/11/21 23:39:53 dns: inotify addwatch: context canceled
+2025/11/21 23:39:53 wgengine.NewUserspaceEngine(tun "tailscale0") ...
+2025/11/21 23:39:53 dns: resolvedIsActuallyResolver error: resolv.conf doesn't point to systemd-resolved; points to [127.0.0.53 168.63.129.16]
+2025/11/21 23:39:53 dns: [rc=resolved resolved=not-in-use ret=direct]
+2025/11/21 23:39:53 dns: using "direct" mode
+2025/11/21 23:39:53 dns: using *dns.directManager
+2025/11/21 23:39:53 link state: interfaces.State{defaultRoute=eth0 ifs={docker0:[172.17.0.1/16] eth0:[10.0.11.148/16 llu6]} v4=true v6=false}
+2025/11/21 23:39:53 onPortUpdate(port=48238, network=udp6)
+2025/11/21 23:39:53 router: using firewall mode pref 
+2025/11/21 23:39:53 router: default choosing iptables
+2025/11/21 23:39:53 router: netfilter running in iptables mode v6 = true, v6filter = true, v6nat = true
+2025/11/21 23:39:53 onPortUpdate(port=53930, network=udp4)
+2025/11/21 23:39:53 magicsock: disco key = d:8506caf0a1d1cd16
+2025/11/21 23:39:53 Creating WireGuard device...
+2025/11/21 23:39:53 Bringing WireGuard device up...
+2025/11/21 23:39:53 Bringing router up...
+2025/11/21 23:39:53 external route: up
+2025/11/21 23:39:53 Clearing router settings...
+2025/11/21 23:39:53 Starting network monitor...
+2025/11/21 23:39:53 Engine created.
+2025/11/21 23:39:53 monitor: [unexpected] network state changed, but stringification didn't: interfaces.State{defaultRoute=eth0 ifs={docker0:[172.17.0.1/16] eth0:[10.0.11.148/16 llu6]} v4=true v6=false}
+2025/11/21 23:39:53 monitor: [unexpected] old: {"InterfaceIPs":{"docker0":["172.17.0.1/16"],"eth0":["10.0.11.148/16","fe80::7e1e:52ff:fec2:bc0a/64"],"lo":["127.0.0.1/8","::1/128"]},"Interface":{"docker0":{"Index":3,"MTU":1500,"Name":"docker0","HardwareAddr":"AkKun4aK","Flags":19,"AltAddrs":null,"Desc":""},"eth0":{"Index":2,"MTU":1500,"Name":"eth0","HardwareAddr":"fB5SwrwK","Flags":51,"AltAddrs":null,"Desc":""},"lo":{"Index":1,"MTU":65536,"Name":"lo","HardwareAddr":null,"Flags":37,"AltAddrs":null,"Desc":""}},"HaveV6":false,"HaveV4":true,"IsExpensive":false,"DefaultRouteInterface":"eth0","HTTPProxy":"","PAC":""}
+2025/11/21 23:39:53 monitor: [unexpected] new: {"InterfaceIPs":{"docker0":["172.17.0.1/16"],"eth0":["10.0.11.148/16","fe80::7e1e:52ff:fec2:bc0a/64"],"lo":["127.0.0.1/8","::1/128"],"tailscale0":["fe80::94fb:7bb1:24f5:4603/64"]},"Interface":{"docker0":{"Index":3,"MTU":1500,"Name":"docker0","HardwareAddr":"AkKun4aK","Flags":19,"AltAddrs":null,"Desc":""},"eth0":{"Index":2,"MTU":1500,"Name":"eth0","HardwareAddr":"fB5SwrwK","Flags":51,"AltAddrs":null,"Desc":""},"lo":{"Index":1,"MTU":65536,"Name":"lo","HardwareAddr":null,"Flags":37,"AltAddrs":null,"Desc":""},"tailscale0":{"Index":4,"MTU":1280,"Name":"tailscale0","HardwareAddr":null,"Flags":57,"AltAddrs":null,"Desc":""}},"HaveV6":false,"HaveV4":true,"IsExpensive":false,"DefaultRouteInterface":"eth0","HTTPProxy":"","PAC":""}
+2025/11/21 23:39:53 LinkChange: major, rebinding. New state: interfaces.State{defaultRoute=eth0 ifs={docker0:[172.17.0.1/16] eth0:[10.0.11.148/16 llu6]} v4=true v6=false}
+2025/11/21 23:39:53 onPortUpdate(port=48238, network=udp6)
+2025/11/21 23:39:53 onPortUpdate(port=53930, network=udp4)
+2025/11/21 23:39:53 Rebind; defIf="eth0", ips=[10.0.11.148/16 fe80::7e1e:52ff:fec2:bc0a/64]
+2025/11/21 23:39:53 magicsock: 0 active derp conns
+2025/11/21 23:39:53 monitor: gateway and self IP changed: gw=10.0.0.1 self=10.0.11.148
+2025/11/21 23:39:53 pm: migrating "_daemon" profile to new format
+2025/11/21 23:39:53 logpolicy: using system state directory "/var/lib/tailscale"
+2025/11/21 23:39:53 got LocalBackend in 112ms
+2025/11/21 23:39:53 Start
+2025/11/21 23:39:53 Backend: logs: be:993cf04ed98ff26738f4b9fa27e1d363e7adcb2f3ceb283c78c522960f4b5439 fe:
+2025/11/21 23:39:53 Switching ipn state NoState -> NeedsLogin (WantRunning=false, nm=false)
+2025/11/21 23:39:53 blockEngineUpdates(true)
+2025/11/21 23:39:53 health(warnable=wantrunning-false): error: Tailscale is stopped.
+2025/11/21 23:39:53 wgengine: Reconfig: configuring userspace WireGuard config (with 0/0 peers)
+2025/11/21 23:39:53 wgengine: Reconfig: configuring router
+2025/11/21 23:39:53 wgengine: Reconfig: configuring DNS
+2025/11/21 23:39:53 dns: Set: {DefaultResolvers:[] Routes:{} SearchDomains:[] Hosts:0}
+2025/11/21 23:39:53 dns: Resolvercfg: {Routes:{} Hosts:0 LocalDomains:[], cloud="azure"}
+2025/11/21 23:39:53 dns: OScfg: {}
+2025/11/21 23:39:53 Start
+2025/11/21 23:39:53 generating new machine key
+2025/11/21 23:39:53 machine key written to store
+2025/11/21 23:39:53 Backend: logs: be:993cf04ed98ff26738f4b9fa27e1d363e7adcb2f3ceb283c78c522960f4b5439 fe:
+2025/11/21 23:39:53 Switching ipn state NoState -> NeedsLogin (WantRunning=true, nm=false)
+2025/11/21 23:39:53 blockEngineUpdates(true)
+2025/11/21 23:39:53 control: client.Shutdown ...
+2025/11/21 23:39:53 control: mapRoutine: exiting
+2025/11/21 23:39:53 health(warnable=warming-up): error: Tailscale is starting. Please wait.
+2025/11/21 23:39:53 health(warnable=wantrunning-false): ok
+2025/11/21 23:39:53 control: authRoutine: exiting
+2025/11/21 23:39:53 control: updateRoutine: exiting
+2025/11/21 23:39:53 control: Client.Shutdown done.
+2025/11/21 23:39:53 StartLoginInteractiveAs("root"): url=false
+2025/11/21 23:39:53 control: client.Login(2)
+2025/11/21 23:39:53 control: LoginInteractive -> regen=true
+2025/11/21 23:39:53 control: doLogin(regen=true, hasUrl=false)
+2025/11/21 23:39:53 control: control server key from https://controlplane.tailscale.com: ts2021=[fSeS+], legacy=[nlFWp]
+2025/11/21 23:39:53 control: Generating a new nodekey.
+2025/11/21 23:39:53 control: RegisterReq: onode= node=[X/L35] fup=false nks=false
+2025/11/21 23:39:54 control: RegisterReq: got response; nodeKeyExpired=false, machineAuthorized=false; authURL=true
+2025/11/21 23:39:54 control: AuthURL is https://login.tailscale.com/a/176078f90132a4
+2025/11/21 23:39:54 control: doLogin(regen=false, hasUrl=true)
+2025/11/21 23:39:54 control: RegisterReq: onode= node=[X/L35] fup=true nks=false
+2025/11/21 23:39:54 Received auth URL: https://login.tailsc...
+2025/11/21 23:39:54 popBrowserAuthNow("root"): url=true, key-expired=false, seamless-key-renewal=false
+2025/11/21 23:39:54 blockEngineUpdates(true)
+2025/11/21 23:39:54 stopEngineAndWait...
+2025/11/21 23:39:54 requestEngineStatusAndWait
+2025/11/21 23:39:54 requestEngineStatusAndWait: waiting...
+2025/11/21 23:39:54 requestEngineStatusAndWait: got status update.
+2025/11/21 23:39:54 stopEngineAndWait: done.
+2025/11/21 23:39:58 health(warnable=warming-up): ok
+2025/11/21 23:40:10 control: RegisterReq: got response; nodeKeyExpired=false, machineAuthorized=true; authURL=false
+2025/11/21 23:40:10 blockEngineUpdates(false)
+2025/11/21 23:40:10 control: netmap: got new dial plan from control
+2025/11/21 23:40:10 health(warnable=not-in-map-poll): ok
+2025/11/21 23:40:10 active login: Slap555@github
+2025/11/21 23:40:10 Switching ipn state NeedsLogin -> Starting (WantRunning=true, nm=true)
+2025/11/21 23:40:10 magicsock: SetPrivateKey called (init)
+2025/11/21 23:40:10 wgengine: Reconfig: configuring userspace WireGuard config (with 0/0 peers)
+2025/11/21 23:40:10 wgengine: Reconfig: configuring router
+2025/11/21 23:40:10 wgengine: Reconfig: configuring DNS
+2025/11/21 23:40:10 dns: Set: {DefaultResolvers:[] Routes:{tail68aac2.ts.net.:[] ts.net.:[199.247.155.53 2620:111:8007::53]}+65arpa SearchDomains:[tail68aac2.ts.net.] Hosts:1}
+2025/11/21 23:40:10 dns: Resolvercfg: {Routes:{.:[127.0.0.53 168.63.129.16] ts.net.:[199.247.155.53 2620:111:8007::53]} Hosts:1 LocalDomains:[tail68aac2.ts.net.]+65arpa, cloud="azure"}
+2025/11/21 23:40:10 dns: OScfg: {Nameservers:[100.100.100.100] SearchDomains:[tail68aac2.ts.net. as3oyaxyermercpknrxo0v1cld.cx.internal.cloudapp.net.] }
+2025/11/21 23:40:10 rename of "/etc/resolv.conf" to "/etc/resolv.pre-tailscale-backup.conf" failed (rename /etc/resolv.conf /etc/resolv.pre-tailscale-backup.conf: device or resource busy), falling back to copy+delete
+2025/11/21 23:40:10 restarted resolved after 1ms
+2025/11/21 23:40:10 peerapi: serving on http://100.67.103.49:38865
+2025/11/21 23:40:10 peerapi: serving on http://[fd7a:115c:a1e0::9a01:673f]:58232
+2025/11/21 23:40:10 magicsock: home DERP changing from derp-0 [0ms] to derp-27 [8ms]
+2025/11/21 23:40:10 magicsock: home is now derp-27 (iad)
+2025/11/21 23:40:10 magicsock: adding connection to derp-27 for home-keep-alive
+2025/11/21 23:40:10 magicsock: 1 active derp conns: derp-27=cr0s,wr0s
+2025/11/21 23:40:10 Switching ipn state Starting -> Running (WantRunning=true, nm=true)
+2025/11/21 23:40:10 health(warnable=no-derp-home): ok
+2025/11/21 23:40:10 derphttp.Client.Connect: connecting to derp-27 (iad)
+2025/11/21 23:40:10 magicsock: endpoints changed: 135.237.130.228:45608 (stun), 10.0.11.148:53930 (local), 172.17.0.1:53930 (local)
+2025/11/21 23:40:10 control: NetInfo: NetInfo{varies=false hairpin= ipv6=false ipv6os=true udp=true icmpv4=false derp=#27 portmap= link="" firewallmode="ipt-default"}
+2025/11/21 23:40:10 magicsock: derp-27 connected; connGen=1
+2025/11/21 23:40:10 health(warnable=no-derp-connection): ok
+2025/11/21 23:43:27 tailscaled got signal interrupt; shutting down
+2025/11/21 23:43:27 canceling captive portal context
+2025/11/21 23:43:27 control: client.Shutdown ...
+2025/11/21 23:43:27 control: authRoutine: exiting
+2025/11/21 23:43:27 control: updateRoutine: exiting
+2025/11/21 23:43:27 control: mapRoutine: exiting
+2025/11/21 23:43:27 control: Client.Shutdown done.
+2025/11/21 23:43:27 magicsock: closing connection to derp-27 (conn-close), age 3m16s
+2025/11/21 23:43:27 magicsock: 0 active derp conns
+2025/11/21 23:43:27 restarting systemd-resolved...
+2025/11/21 23:43:27 restarted systemd-resolved
+2025/11/21 23:43:27 monitor: RTM_DELROUTE: src=, dst=fe80::/64, gw=, outif=4, table=254
+2025/11/21 23:43:27 monitor: RTM_DELROUTE: src=, dst=fe80::94fb:7bb1:24f5:4603/128, gw=, outif=4, table=255
+2025/11/21 23:43:27 monitor: RTM_DELROUTE: src=, dst=ff00::/8, gw=, outif=4, table=255
+2025/11/21 23:43:27 monitor: ip rule deleted: {Family:2 DstLength:0 SrcLength:0 Tos:0 Table:254 Protocol:0 Scope:0 Type:1 Flags:0 Attributes:{Dst:<nil> Src:<nil> Gateway:<nil> OutIface:0 Priority:5210 Table:254 Mark:16711680 Pref:<nil> Expires:<nil> Metrics:<nil> Multipath:[]}}
+2025/11/21 23:43:27 monitor: ip rule deleted: {Family:2 DstLength:0 SrcLength:0 Tos:0 Table:253 Protocol:0 Scope:0 Type:1 Flags:0 Attributes:{Dst:<nil> Src:<nil> Gateway:<nil> OutIface:0 Priority:5230 Table:253 Mark:16711680 Pref:<nil> Expires:<nil> Metrics:<nil> Multipath:[]}}
+2025/11/21 23:43:27 monitor: ip rule deleted: {Family:2 DstLength:0 SrcLength:0 Tos:0 Table:0 Protocol:0 Scope:0 Type:7 Flags:0 Attributes:{Dst:<nil> Src:<nil> Gateway:<nil> OutIface:0 Priority:5250 Table:0 Mark:16711680 Pref:<nil> Expires:<nil> Metrics:<nil> Multipath:[]}}
+2025/11/21 23:43:27 monitor: ip rule deleted: {Family:2 DstLength:0 SrcLength:0 Tos:0 Table:52 Protocol:0 Scope:0 Type:1 Flags:0 Attributes:{Dst:<nil> Src:<nil> Gateway:<nil> OutIface:0 Priority:5270 Table:52 Mark:0 Pref:<nil> Expires:<nil> Metrics:<nil> Multipath:[]}}
+2025/11/21 23:43:27 flushing log.
+2025/11/21 23:43:27 logger closing down
