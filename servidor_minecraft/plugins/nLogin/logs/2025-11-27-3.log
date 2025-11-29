@@ -1,0 +1,23 @@
+[2025/11/27 07:49:45]: §9          __             _       
+[2025/11/27 07:49:45]: §9  _ __   / /  ___   __ _(_)_ __  
+[2025/11/27 07:49:45]: §9 | '_ \ / /  / _ \ / _` | | '_ \ 
+[2025/11/27 07:49:45]: §9 | | | / /__| (_) | (_| | | | | |
+[2025/11/27 07:49:45]: §9 |_| |_\____/\___/ \__, |_|_| |_|
+[2025/11/27 07:49:45]: §9                  |___/            
+[2025/11/27 07:49:45]: §9 By: www.nickuc.com - V 10.4.23 DEVELOPMENT
+[2025/11/27 07:49:45]: §9 
+[2025/11/27 07:49:46]: §3[nLogin] [DEBUG] All settings were loaded in 289 ms.
+[2025/11/27 07:49:46]: §3[nLogin] [DEBUG] Loading the messages_es.yml message file...
+[2025/11/27 07:49:46]: §3[nLogin] [DEBUG] All plugin messages were loaded in 83 ms (languageByClient=false).
+[2025/11/27 07:49:46]: §3[nLogin] [DEBUG] All proxy settings were loaded in 2 ms.
+[2025/11/27 07:49:46]: §3[nLogin] [DEBUG] Loading database...
+[2025/11/27 07:49:47]: §3[nLogin] [DEBUG] Starting logger filter...
+[2025/11/27 07:53:28]: §3[nLogin] [DEBUG] [SQLite] [UPDATE]: "UPDATE `nlogin` SET `last_name` = 'Jozstscito', `unique_id` = 758570df0a393e49a96749f963ea8fa1,  `mojang_id` = null,  `bedrock_id` = null,  `password` = '$2a$10$qCGc8d217M/TKLrh0M1u5OXJflM.K/B7EHNLVB5xlHsoN.zDbnNuK', `last_ip` = '127.203.56.249', `creation_date` = 2025-11-25 01:32:37.705, `last_seen` = 2025-11-27 07:53:28.741, `email` = null, `discord` = null, `settings` = '{"settings":[{"value":"es","key":"language"}],"version":0}' WHERE `ai` = 1" (applied to [last_ip, last_seen, settings] columns)
+[2025/11/27 07:53:28]: [nLogin] The user Jozstscito has successfully logged in.
+[2025/11/27 07:56:56]: §3[nLogin] [DEBUG] [SQLite] [UPDATE]: "UPDATE `nlogin` SET `last_name` = 'Jozstscito', `unique_id` = 758570df0a393e49a96749f963ea8fa1,  `mojang_id` = null,  `bedrock_id` = null,  `password` = '$2a$10$qCGc8d217M/TKLrh0M1u5OXJflM.K/B7EHNLVB5xlHsoN.zDbnNuK', `last_ip` = '127.203.56.249', `creation_date` = 2025-11-25 01:32:37.705, `last_seen` = 2025-11-27 07:56:56.317, `email` = null, `discord` = null, `settings` = '{"settings":[{"value":"es","key":"language"}],"version":0}' WHERE `ai` = 1" (applied to [last_seen, settings] columns)
+[2025/11/27 08:01:30]: §3[nLogin] [DEBUG] [SQLite] [UPDATE]: "UPDATE `nlogin` SET `last_name` = 'Jozstscito', `unique_id` = 758570df0a393e49a96749f963ea8fa1,  `mojang_id` = null,  `bedrock_id` = null,  `password` = '$2a$10$qCGc8d217M/TKLrh0M1u5OXJflM.K/B7EHNLVB5xlHsoN.zDbnNuK', `last_ip` = '127.203.56.249', `creation_date` = 2025-11-25 01:32:37.705, `last_seen` = 2025-11-27 08:01:30.313, `email` = null, `discord` = null, `settings` = '{"settings":[{"value":"es","key":"language"}],"version":0}' WHERE `ai` = 1" (applied to [last_ip, last_seen, settings] columns)
+[2025/11/27 08:01:30]: [nLogin] The user Jozstscito has successfully logged in.
+[2025/11/27 08:05:46]: §3[nLogin] [DEBUG] [SQLite] [UPDATE]: "UPDATE `nlogin` SET `last_name` = 'Jozstscito', `unique_id` = 758570df0a393e49a96749f963ea8fa1,  `mojang_id` = null,  `bedrock_id` = null,  `password` = '$2a$10$qCGc8d217M/TKLrh0M1u5OXJflM.K/B7EHNLVB5xlHsoN.zDbnNuK', `last_ip` = '127.203.56.249', `creation_date` = 2025-11-25 01:32:37.705, `last_seen` = 2025-11-27 08:05:46.718, `email` = null, `discord` = null, `settings` = '{"settings":[{"value":"es","key":"language"}],"version":0}' WHERE `ai` = 1" (applied to [last_seen, settings] columns)
+[2025/11/27 08:06:04]: §3[nLogin] [DEBUG] [SQLite] [UPDATE]: "UPDATE `nlogin` SET `last_name` = 'Jozstscito', `unique_id` = 758570df0a393e49a96749f963ea8fa1,  `mojang_id` = null,  `bedrock_id` = null,  `password` = '$2a$10$qCGc8d217M/TKLrh0M1u5OXJflM.K/B7EHNLVB5xlHsoN.zDbnNuK', `last_ip` = '127.203.56.249', `creation_date` = 2025-11-25 01:32:37.705, `last_seen` = 2025-11-27 08:06:04.887, `email` = null, `discord` = null, `settings` = '{"settings":[{"value":"es","key":"language"}],"version":0}' WHERE `ai` = 1" (applied to [last_ip, last_seen, settings] columns)
+[2025/11/27 08:06:04]: [nLogin] The user Jozstscito has successfully logged in.
+[2025/11/27 08:24:02]: [nLogin] Successful plugin core shutdown (took 0.00s)

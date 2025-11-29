@@ -1,0 +1,5 @@
+# Configuración del plugin TestPro
+
+# Nombre del mundo donde ocurrirá el apocalipsis.
+# Déjalo vacío ("") si quieres configurarlo con el comando dentro del juego.
+mundo-apocalipsis: world

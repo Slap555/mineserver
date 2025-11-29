@@ -1,0 +1,145 @@
+enabled: true
+prize:
+  economy:
+    enabled: false
+    amount: 50
+  items:
+    enabled: true
+    itemPrizes:
+    - ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4556
+      id: minecraft:potion
+      count: 1
+      components:
+        minecraft:potion_contents: '{potion:"minecraft:strong_strength"}'
+      schema_version: 1
+countdown:
+  beforeTeleport:
+    enabled: true
+    duration: 5
+    sound: true
+  beforeFight:
+    enabled: true
+    duration: 5
+    disableMoving: true
+    blindness: false
+    invincibility: true
+    sound: true
+points:
+  win: 1
+  lose: -1
+firework:
+  inArena: true
+  afterTeleport: true
+health: 20
+timeOut: 300
+rounds: 3
+maximumTeleportDistance: 1
+playerItemDrop: false
+playerItemPickUp: false
+winAnnouncement: true
+commandsToRunAtStart:
+- ungod {PLAYER1}
+- ungod {PLAYER2}
+commandsToRunAtEnd:
+- give {WINNER} 367 1
+spawn1:
+  world: BiomesArena
+  x: 895.861592709037
+  y: 23.0
+  z: -74.29905269330592
+  yaw: -25.049433
+  pitch: 16.349976
+spawn2:
+  world: BiomesArena
+  x: 953.2478456948354
+  y: 43.0
+  z: 2.68628554029935
+  yaw: 109.2005
+  pitch: 36.749977
+inventory:
+  items:
+  - ==: org.bukkit.inventory.ItemStack
+    DataVersion: 4556
+    id: minecraft:diamond_sword
+    count: 1
+    schema_version: 1
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - ==: org.bukkit.inventory.ItemStack
+    DataVersion: 4556
+    id: minecraft:diamond_boots
+    count: 1
+    schema_version: 1
+  - ==: org.bukkit.inventory.ItemStack
+    DataVersion: 4556
+    id: minecraft:diamond_leggings
+    count: 1
+    schema_version: 1
+  - ==: org.bukkit.inventory.ItemStack
+    DataVersion: 4556
+    id: minecraft:diamond_chestplate
+    count: 1
+    schema_version: 1
+  - ==: org.bukkit.inventory.ItemStack
+    DataVersion: 4556
+    id: minecraft:diamond_helmet
+    count: 1
+    schema_version: 1
+  - null
+  - null
+  - null
+  armor:
+  - ==: org.bukkit.inventory.ItemStack
+    DataVersion: 4556
+    id: minecraft:diamond_boots
+    count: 1
+    schema_version: 1
+  - ==: org.bukkit.inventory.ItemStack
+    DataVersion: 4556
+    id: minecraft:diamond_leggings
+    count: 1
+    schema_version: 1
+  - ==: org.bukkit.inventory.ItemStack
+    DataVersion: 4556
+    id: minecraft:diamond_chestplate
+    count: 1
+    schema_version: 1
+  - ==: org.bukkit.inventory.ItemStack
+    DataVersion: 4556
+    id: minecraft:diamond_helmet
+    count: 1
+    schema_version: 1

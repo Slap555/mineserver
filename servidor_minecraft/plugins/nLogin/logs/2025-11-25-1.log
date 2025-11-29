@@ -1,0 +1,48 @@
+[2025/11/25 01:30:44]: §9          __             _       
+[2025/11/25 01:30:44]: §9  _ __   / /  ___   __ _(_)_ __  
+[2025/11/25 01:30:44]: §9 | '_ \ / /  / _ \ / _` | | '_ \ 
+[2025/11/25 01:30:44]: §9 | | | / /__| (_) | (_| | | | | |
+[2025/11/25 01:30:44]: §9 |_| |_\____/\___/ \__, |_|_| |_|
+[2025/11/25 01:30:44]: §9                  |___/            
+[2025/11/25 01:30:44]: §9 By: www.nickuc.com - V 10.4.23 DEVELOPMENT
+[2025/11/25 01:30:44]: §9 
+[2025/11/25 01:30:44]: §3[nLogin] [DEBUG] The config.yml file was created successfully.
+[2025/11/25 01:30:46]: §3[nLogin] [DEBUG] All settings were loaded in 2299 ms.
+[2025/11/25 01:30:47]: §3[nLogin] [DEBUG] Loading the messages_es.yml message file...
+[2025/11/25 01:30:47]: §3[nLogin] [DEBUG] All plugin messages were loaded in 69 ms (languageByClient=false).
+[2025/11/25 01:30:47]: §3[nLogin] [DEBUG] All proxy settings were loaded in 1 ms.
+[2025/11/25 01:30:47]: §3[nLogin] [DEBUG] Loading database...
+[2025/11/25 01:30:47]: [nLogin] Generating RSA keypair... (this may take a while)
+[2025/11/25 01:30:49]: [nLogin] The RSA key pair was successfully generated. Took 2.25s
+[2025/11/25 01:30:49]: §3[nLogin] [DEBUG] Starting logger filter...
+[2025/11/25 01:30:59]: §3[nLogin] [DEBUG] Quiely ignoring the ProtocolLib exception (The method getUniqueId is not supported for temporary players.)
+[2025/11/25 01:31:01]: 
+[2025/11/25 01:31:01]:  §bThank you so much for choosing nLogin! §4<3
+[2025/11/25 01:31:01]: 
+[2025/11/25 01:31:01]:  §4For your safety, please read the message below:
+[2025/11/25 01:31:01]:   §cNever download nLogin from unknown sources.
+[2025/11/25 01:31:01]:   §cA modified version may contain malicious software.
+[2025/11/25 01:31:01]: 
+[2025/11/25 01:31:01]:  §3Trusted sources:
+[2025/11/25 01:31:01]:   §bwww.nickuc.com
+[2025/11/25 01:31:01]:   §bwww.github.com/nickuc
+[2025/11/25 01:31:01]:   §bOpeNLogin installer (from Spigot or GitHub)
+[2025/11/25 01:31:01]: 
+[2025/11/25 01:31:01]:  §3Official support channels:
+[2025/11/25 01:31:01]:   §bDiscord group: §fwww.nickuc.com/discord
+[2025/11/25 01:31:01]:   §bDocumentation: §fdocs.nickuc.com/nlogin/
+[2025/11/25 01:31:01]:   §bEmail: §fsupport@nickuc.com
+[2025/11/25 01:31:01]:   §bYouTube: §fyoutube.com/nickuc
+[2025/11/25 01:31:01]: 
+[2025/11/25 01:31:01]:  §eTo remove this warning, log in with "nlogin.admin" permission on the server
+[2025/11/25 01:31:01]:  §eand click the "Setup plugin" button to configure your plugin.
+[2025/11/25 01:31:01]: 
+[2025/11/25 01:32:37]: §3[nLogin] [DEBUG] [SQLite] [UPDATE]: "INSERT INTO `nlogin` (`last_name`, `unique_id`, `mojang_id`, `bedrock_id`, `password`, `last_ip`, `creation_date`, `last_seen`, `email`, `discord`, `settings`) VALUES ('Jozstscito', 758570df0a393e49a96749f963ea8fa1, null, null, '$2a$10$qCGc8d217M/TKLrh0M1u5OXJflM.K/B7EHNLVB5xlHsoN.zDbnNuK', '127.203.56.249', '2025-11-25 01:32:37.705', '2025-11-25 01:32:37.705', null, null, '{"settings":[{"value":true,"key":"force-invalid-session"}],"version":0}')" (applied to all columns)
+[2025/11/25 01:32:37]: [nLogin] The user Jozstscito has successfully registered.
+[2025/11/25 01:33:30]: §3[nLogin] [DEBUG] [SQLite] [UPDATE]: "UPDATE `nlogin` SET `last_name` = 'Jozstscito', `unique_id` = 758570df0a393e49a96749f963ea8fa1,  `mojang_id` = null,  `bedrock_id` = null,  `password` = '$2a$10$qCGc8d217M/TKLrh0M1u5OXJflM.K/B7EHNLVB5xlHsoN.zDbnNuK', `last_ip` = '127.203.56.249', `creation_date` = 2025-11-25 01:32:37.705, `last_seen` = 2025-11-25 01:33:30.339, `email` = null, `discord` = null, `settings` = '{"settings":[{"value":true,"key":"force-invalid-session"},{"value":"es","key":"language"}],"version":0}' WHERE `ai` = 1" (applied to [last_seen, settings] columns)
+[2025/11/25 01:33:44]: §3[nLogin] [DEBUG] [SQLite] [UPDATE]: "UPDATE `nlogin` SET `last_name` = 'Jozstscito', `unique_id` = 758570df0a393e49a96749f963ea8fa1,  `mojang_id` = null,  `bedrock_id` = null,  `password` = '$2a$10$qCGc8d217M/TKLrh0M1u5OXJflM.K/B7EHNLVB5xlHsoN.zDbnNuK', `last_ip` = '127.203.56.249', `creation_date` = 2025-11-25 01:32:37.705, `last_seen` = 2025-11-25 01:33:44.804, `email` = null, `discord` = null, `settings` = '{"settings":[{"value":"es","key":"language"}],"version":0}' WHERE `ai` = 1" (applied to [last_ip, last_seen, settings] columns)
+[2025/11/25 01:33:44]: [nLogin] The user Jozstscito has successfully logged in.
+[2025/11/25 01:36:44]: §3[nLogin] [DEBUG] [SQLite] [UPDATE]: "UPDATE `nlogin` SET `last_name` = 'Jozstscito', `unique_id` = 758570df0a393e49a96749f963ea8fa1,  `mojang_id` = null,  `bedrock_id` = null,  `password` = '$2a$10$qCGc8d217M/TKLrh0M1u5OXJflM.K/B7EHNLVB5xlHsoN.zDbnNuK', `last_ip` = '127.203.56.249', `creation_date` = 2025-11-25 01:32:37.705, `last_seen` = 2025-11-25 01:36:44.287, `email` = null, `discord` = null, `settings` = '{"settings":[{"value":"es","key":"language"}],"version":0}' WHERE `ai` = 1" (applied to [last_seen, settings] columns)
+[2025/11/25 01:37:01]: §3[nLogin] [DEBUG] [SQLite] [UPDATE]: "UPDATE `nlogin` SET `last_name` = 'Jozstscito', `unique_id` = 758570df0a393e49a96749f963ea8fa1,  `mojang_id` = null,  `bedrock_id` = null,  `password` = '$2a$10$qCGc8d217M/TKLrh0M1u5OXJflM.K/B7EHNLVB5xlHsoN.zDbnNuK', `last_ip` = '127.203.56.249', `creation_date` = 2025-11-25 01:32:37.705, `last_seen` = 2025-11-25 01:37:01.554, `email` = null, `discord` = null, `settings` = '{"settings":[{"value":"es","key":"language"}],"version":0}' WHERE `ai` = 1" (applied to [last_ip, last_seen, settings] columns)
+[2025/11/25 01:37:01]: [nLogin] The user Jozstscito has successfully logged in.
+[2025/11/25 03:50:04]: [nLogin] Successful plugin core shutdown (took 0.00s)
